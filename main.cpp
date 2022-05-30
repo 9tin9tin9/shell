@@ -107,9 +107,6 @@ void spawn(const Args& args){
 
 int main(int argc, char** argv){
 
-    // handle Ctrl-C: discard the current line and restart reading
-    // long jump to here
-
     while(1){
         printf("%s", PS1);
         std::string line = readline(stdin);
